@@ -2,7 +2,7 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #dc3545;
+  --primary-color:black;
   --dark-color: #333333;
   --light-color: #dc3545;
   --danger-color: #dc3545;
@@ -112,7 +112,7 @@ img {
 /* Cards */
 .card {
   padding: 1rem;
-  border: #ccc 1px dotted;
+  border: #ccc 1px solid;
   margin: 0.7rem 0;
   box-shadow: 0 0 6px #ccc;
   background-color: white;
@@ -220,9 +220,11 @@ img {
 
 .btn-block {
   display: block;
-  width: 30%;
+  width: 20%;
   margin: auto;
   margin-top: 4%;
+  height: 60px;
+  
 }
 
 .btn-sm {
@@ -249,13 +251,14 @@ img {
   background: var(--light-color);
   color: #333;
 }
-
+.bg-primary{
+color: black;
+}
 .btn-primary,
-.bg-primary,
 .badge-primary,
 .alert-primary {
   background: var(--primary-color);
-  color:black;
+  color:white;
 }
 
 .btn-light,
@@ -263,7 +266,7 @@ img {
 .badge-light,
 .alert-light {
   background: var(--light-color);
-  color: #333;
+  color: white;
 }
 
 .btn-dark,
@@ -339,9 +342,11 @@ textarea {
   background-color: rgb(255, 255, 255);
   border: none;
   width: 50%;
+  height: 60px;
   display: block;
-  border-bottom: 0.3rem solid;
+  border: 0.1rem solid;
   transition: all 0.3s;
+  
 }
 
 input[type='submit'],
@@ -357,9 +362,10 @@ button {
     border: none;
     outline: none;
     cursor: pointer;
-    width: 30%;
+    width: 20%;
     margin: auto;
-    margin-top: 7%;
+    margin-top: 4%;
+    font-size: 15px;
       
 }
 
